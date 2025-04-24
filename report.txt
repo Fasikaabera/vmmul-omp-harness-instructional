@@ -1,0 +1,11 @@
+dgemv-vectorized.cpp:11:23: missed: couldn't vectorize loop
+dgemv-vectorized.cpp:11:23: missed: not vectorized: loop nest containing two or more consecutive inner loops cannot be vectorized
+dgemv-vectorized.cpp:23:18: optimized: loop vectorized using 16 byte vectors
+dgemv-vectorized.cpp:16:18: optimized: loop vectorized using 16 byte vectors
+dgemv-vectorized.cpp:9:6: note: vectorized 2 loops in function.
+dgemv-vectorized.cpp:9:6: note: ***** Analysis failed with vector mode V2DF
+dgemv-vectorized.cpp:9:6: note: ***** The result for vector mode V16QI would be the same
+dgemv-vectorized.cpp:9:6: note: ***** Re-trying analysis with vector mode V8QI
+dgemv-vectorized.cpp:9:6: note: ***** Analysis failed with vector mode V8QI
+dgemv-vectorized.cpp:9:6: note: ***** Re-trying analysis with vector mode V4QI
+dgemv-vectorized.cpp:9:6: note: ***** Analysis failed with vector mode V4QI
