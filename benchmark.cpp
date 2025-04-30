@@ -59,7 +59,8 @@ int main(int argc, char** argv)
 
     // we purposefully run the smallest problem twice so as to "condition"
     // BLAS. For timing purposes, ignore the timing of the first problem size
-    std::vector<int> test_sizes{1024, 1024, 2048, 4096, 8192, 16384};
+   std::vector<int> test_sizes{1024, 1024, 2048, 4096, 8192, 16384};
+  //  std::vector<int> test_sizes{1024};
 
     int n_problems = test_sizes.size();
 
@@ -93,12 +94,15 @@ int main(int argc, char** argv)
         memcpy((void *)Ycopy, (const void *)Y, sizeof(double)*n);
 
         // insert start timer code here
+        auto start = std::chrono::high_resolution_clock::now();
 
         // call the method to do the work
         my_dgemv(n, A, X, Y); 
 
         // insert end timer code here, and print out the elapsed time for this problem size
-
+        auto end = std::chrono::high_resolution_clock::now();
+        std::chrono::duration<double> elapsedTime = end - start;
+        std::cout << "Elapsed time: " << elapsedTime.count() << " seconds" << std::endl;
 
         // now invoke the cblas method to compute the matrix-vector multiplye
         reference_dgemv(n, Acopy, Xcopy, Ycopy);

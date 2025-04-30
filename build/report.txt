@@ -1,0 +1,41 @@
+/global/homes/f/fabulous/CSC656/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:12:1: note: ***** Analysis failed with vector mode VOID
+/global/homes/f/fabulous/CSC656/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:11:23: missed: couldn't vectorize loop
+/global/homes/f/fabulous/CSC656/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:11:23: missed: not vectorized: loop nest containing two or more consecutive inner loops cannot be vectorized
+/global/homes/f/fabulous/CSC656/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:23:18: optimized: loop vectorized using 32 byte vectors
+/global/homes/f/fabulous/CSC656/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:23:18: optimized: loop vectorized using 16 byte vectors
+/global/homes/f/fabulous/CSC656/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:16:18: optimized: loop vectorized using 32 byte vectors
+/global/homes/f/fabulous/CSC656/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:9:6: note: vectorized 2 loops in function.
+/global/homes/f/fabulous/CSC656/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:9:6: note: ***** Analysis failed with vector mode V4DF
+/global/homes/f/fabulous/CSC656/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:9:6: note: ***** The result for vector mode V32QI would be the same
+/global/homes/f/fabulous/CSC656/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:9:6: note: ***** Re-trying analysis with vector mode V16QI
+/global/homes/f/fabulous/CSC656/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:9:6: note: ***** Analysis failed with vector mode V16QI
+/global/homes/f/fabulous/CSC656/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:9:6: note: ***** Re-trying analysis with vector mode V8QI
+/global/homes/f/fabulous/CSC656/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:27:14: note: ***** Analysis failed with vector mode V8QI
+/global/homes/f/fabulous/CSC656/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:27:14: note: ***** Re-trying analysis with vector mode V4QI
+/global/homes/f/fabulous/CSC656/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:27:14: note: ***** Analysis failed with vector mode V4QI
+/global/homes/f/fabulous/CSC656/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:11:23: missed: couldn't vectorize loop
+/global/homes/f/fabulous/CSC656/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:15:31: missed: not vectorized: complicated access pattern.
+/global/homes/f/fabulous/CSC656/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:14:27: optimized: loop vectorized using 32 byte vectors
+/global/homes/f/fabulous/CSC656/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:14:27: optimized: loop vectorized using 16 byte vectors
+/global/homes/f/fabulous/CSC656/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:9:6: note: vectorized 1 loops in function.
+/global/homes/f/fabulous/CSC656/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:18:14: note: ***** Analysis failed with vector mode V4DF
+/global/homes/f/fabulous/CSC656/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:18:14: note: ***** The result for vector mode V32QI would be the same
+/global/homes/f/fabulous/CSC656/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:18:14: note: ***** Re-trying analysis with vector mode V16QI
+/global/homes/f/fabulous/CSC656/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:18:14: note: ***** Analysis failed with vector mode V16QI
+/global/homes/f/fabulous/CSC656/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:18:14: note: ***** Re-trying analysis with vector mode V8QI
+/global/homes/f/fabulous/CSC656/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:18:14: note: ***** Analysis failed with vector mode V8QI
+/global/homes/f/fabulous/CSC656/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:18:14: note: ***** Re-trying analysis with vector mode V4QI
+/global/homes/f/fabulous/CSC656/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:18:14: note: ***** Analysis failed with vector mode V4QI
+/global/homes/f/fabulous/CSC656/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:11:23: missed: couldn't vectorize loop
+/global/homes/f/fabulous/CSC656/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:15:26: missed: not vectorized: complicated access pattern.
+/global/homes/f/fabulous/CSC656/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:14:27: optimized: loop vectorized using 32 byte vectors
+/global/homes/f/fabulous/CSC656/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:14:27: optimized: loop vectorized using 16 byte vectors
+/global/homes/f/fabulous/CSC656/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:9:6: note: vectorized 1 loops in function.
+/global/homes/f/fabulous/CSC656/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:9:6: note: ***** Analysis failed with vector mode V4DF
+/global/homes/f/fabulous/CSC656/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:9:6: note: ***** The result for vector mode V32QI would be the same
+/global/homes/f/fabulous/CSC656/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:9:6: note: ***** Re-trying analysis with vector mode V16QI
+/global/homes/f/fabulous/CSC656/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:9:6: note: ***** Analysis failed with vector mode V16QI
+/global/homes/f/fabulous/CSC656/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:9:6: note: ***** Re-trying analysis with vector mode V8QI
+/global/homes/f/fabulous/CSC656/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:18:14: note: ***** Analysis failed with vector mode V8QI
+/global/homes/f/fabulous/CSC656/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:18:14: note: ***** Re-trying analysis with vector mode V4QI
+/global/homes/f/fabulous/CSC656/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:18:14: note: ***** Analysis failed with vector mode V4QI
